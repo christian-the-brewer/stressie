@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Christian Brewer, Lupita Mcgregor Almuhana, Lawrence Weru, Elaine Yuan
+Copyright (c) 2023 Christian Brewer, Guadalupe Mcgregor Almuhana, Lawrence Weru, Elaine Yuan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

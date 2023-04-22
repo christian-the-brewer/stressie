@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
+import "./App.css";
+import Header from "./components/shared/Header";
+import Footer from "./components/shared/Footer";
+import Welcome from "./components/Welcome"
+import About from "./components/About"
+import Suggestions from "./components/Suggestions"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
