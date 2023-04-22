@@ -26,8 +26,9 @@ React, Bootstrap
 
 ## User Stories
 Users can:
-    Signup
-    Login
-    Logout
-    Take welcome questionaire
-    Receive stress coping suggestion
+    * Signup
+    * Login
+    * Logout
+    * Take welcome questionaire
+    * Receive stress coping suggestion
+
