@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from 'react';
 import "./App.css";
 import Header from "./components/shared/Header";
@@ -12,6 +12,7 @@ import Survey from "./components/Survey"
 import CheckIn from "./components/CheckIn"
 import Rewards from "./components/Rewards"
 import FindCare from "./components/FindCare"
+import DeStress from "./components/DeStress"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/check-in' element={<CheckIn />} />
           <Route path='/rewards' element={<Rewards />} />
           <Route path='/find-care' element={<FindCare />} />
+          <Route path='/de-stress' element={<DeStress />} />
         </Routes>
         <Footer />
       </Router>

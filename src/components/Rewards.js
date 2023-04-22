@@ -1,17 +1,15 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-function Welcome() {
+function Rewards() {
     return (
         <Container>
             <div>
-                <h2>Welcome Back</h2>
+                <h2>Rewards</h2>
             </div>
-            <div>
-                <h2>GRAPH</h2>
-            </div>
+
         </Container>
     )
 }
 
-export default Welcome
+export default Rewards

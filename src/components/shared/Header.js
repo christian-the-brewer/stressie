@@ -5,7 +5,7 @@ function Header() {
     return (
         <Container>
             <Navbar expand="lg" className="navbar">
-                <Navbar.Brand href="/">Stressie</Navbar.Brand>
+                <Navbar.Brand href="/">Hard Hat Zen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -19,3 +19,5 @@ function Header() {
         </Container>
     )
 }
+
+export default Header
