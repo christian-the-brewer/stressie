@@ -49,3 +49,8 @@ html {
 .App {
   background-color: #F4EAE0;
 }
+
+a {
+  text-decoration: none;
+  color: #F96302;
+}

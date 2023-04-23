@@ -6,7 +6,7 @@ function Footer() {
     return (
         <Container>
             <div className='footer'>
-                <div className='footer-links'>
+                <div id='footer-links' style={{ color: '#F96302' }}>
                     <a href='/about'>About Us</a>
                     <a href='/'>Privacy Policy</a>
                 </div>

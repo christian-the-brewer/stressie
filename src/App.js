@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import "./App.css";
 import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Welcome from "./components/Welcome"
 import About from "./components/About"
 import Suggestions from "./components/Suggestions"
@@ -13,7 +14,8 @@ import CheckIn from "./components/CheckIn"
 import Rewards from "./components/Rewards"
 import FindCare from "./components/FindCare"
 import DeStress from "./components/DeStress"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
+
 
 function App() {
   return (

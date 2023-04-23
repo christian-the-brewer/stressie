@@ -1,9 +1,15 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+a {
+    text-decoration: none;
+}
+
 a {
     text-decoration: none;
     color: #F96302;
 }
 
-#footer-links {
+.footer-links {
     display: flex;
     justify-content: space-around;
     gap: 25px;

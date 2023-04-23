@@ -6,7 +6,7 @@ function Header() {
     return (
         <Container>
             <Navbar expand="lg" className="navbar">
-                <Navbar.Brand className="brand" href="/">Hard Hat Zen</Navbar.Brand>
+                <Navbar.Brand className="brand" href="/" style={{ color: '#F96302' }}>Hard Hat Zen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

@@ -1,0 +1,19 @@
+#row1 {
+    display: flex;
+    justify-content: center;
+}
+
+#row2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+.survey-button {
+    width: 100%;
+    margin: 10px;
+}
