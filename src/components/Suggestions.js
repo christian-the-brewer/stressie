@@ -1,4 +1,5 @@
 import React from 'react'
+import { suggestionList } from '../suggestionList'
 
 function Suggestions() {
     /* TODO:
@@ -6,8 +7,9 @@ function Suggestions() {
     - map over suggestion object to filter out matching suggestion
     - display recommendation 
     - where to prompt user to after?
-    
+
     */
+
 
 
 
