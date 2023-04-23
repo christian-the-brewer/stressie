@@ -17,13 +17,18 @@ function Survey() {
     const [user, setUser] = useState(null)
     const [updated, setUpdated] = useState(false)
 
+    const navigate = useNavigate()
+
     //  let user = {
     //     coping_style: "",
     //     time: 15,
     //     activities: "Music",
     //  }
 
+    function addAnswer(param, answer) {
+        //function on each button to add answer to user model
 
+    }
 
 
 
@@ -32,7 +37,7 @@ function Survey() {
             <h2>When stressed, I cope by...</h2>
             <div id='button-box'>
                 <div id='row1'>
-                    <Button variant='outline-dark' className='survey-button' >Avoidant</Button>
+                    <Button variant='outline-dark' className='survey-button' onClick={addAnswer("avoidant")} >Avoidant</Button>
                     <Button variant='outline-dark' className='survey-button'>Problem</Button>
                 </div>
                 <div id='row2'>
