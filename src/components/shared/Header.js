@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import "../../styles/header.css"
 
 function Header() {
     return (
         <Container>
             <Navbar expand="lg" className="navbar">
-                <Navbar.Brand href="/">Hard Hat Zen</Navbar.Brand>
+                <Navbar.Brand className="brand" href="/">Hard Hat Zen</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

@@ -32,7 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  background-color: #F4EAE0;
+}
+
+.container {
+  background-color: #F4EAE0;
+}
+
+.App {
+  background-color: #F4EAE0;
 }

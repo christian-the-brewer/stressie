@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #F96302;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
