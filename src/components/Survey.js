@@ -14,6 +14,16 @@ function Survey() {
     */
 
 
+    const [user, setUser] = useState(null)
+    const [updated, setUpdated] = useState(false)
+
+    //  let user = {
+    //     coping_style: "",
+    //     time: 15,
+    //     activities: "Music",
+    //  }
+
+
 
 
 
