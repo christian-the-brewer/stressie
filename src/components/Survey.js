@@ -5,6 +5,18 @@ import { Container, Button } from 'react-bootstrap'
 import "../styles/survey.css"
 
 function Survey() {
+    /*  TO DO:
+     - keep track of which question user is on
+     - show current question and buttons for answer
+     - store answer in a user object
+     - check if a button(answer) has been selected befor allowing user to continue
+     - at last question, show submit button to navigate to suggestion with user as prop
+    */
+
+
+
+
+
     return (
         <Container className='survey'>
             <h2>When stressed, I cope by...</h2>
